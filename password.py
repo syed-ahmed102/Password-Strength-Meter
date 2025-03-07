@@ -1,9 +1,5 @@
 import streamlit as st
 import re
-from passlib.context import CryptContext
-
-# Configure password hashing
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 # Custom CSS for styling the strength meter
 st.markdown(
